@@ -1,0 +1,49 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Overpass', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--ligh-gray);
+    min-height: 100vh;
+}
+
+.wrapper {
+    background-color: var(--white);
+    border-radius: 1rem;
+    max-width: 290px;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.wrapper > picture img {
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.wrapper > article {
+    padding: 1.4rem 1.5rem;
+}
+
+.wrapper > article h1 {
+    color: var(--dark-blue);
+    font-size: 2rem;
+    font-family: "Outfit";
+    font-weight: 700;
+    text-align: center;
+}
+.wrapper > article p {
+    color: var(--grayish-blue);
+    font-size: 1.3rem;
+    line-height: 135%;
+    text-align: center;
+}
